@@ -8,7 +8,7 @@
         .top{height: 1000px;
               width: auto;
               display: flex;
-            background-color: aqua;
+        
         }
 
         
@@ -48,9 +48,9 @@
 
 
         .body{ display: flex;
-            flex-direction: row;
+            flex-direction:column;
             gap: 50px;
-            background-color: coral;
+            
             height: 800px;
             width: 1222px;
             margin-top: 112px;
@@ -59,28 +59,28 @@
 
         .video{
             height: 150px;
-            width:300px ;
+            width:280px ;
         }
 
         .thamb{
             height: 150px;
-            width: 300px;
+            width: 280px;
         }
 
         .down{display: flex;
             flex-direction: row;
             height: 100px;
-            width: 300px;
-            background-color: blue;
+            width: 280px;
+            
         }
-        .profile1{background-color: chartreuse;
+        .profile1{
                   height: 100px;
                   width: 50px;
 
         }
 
         .profile2{
-            background-color: aqua;
+            
             height: 100px;
             width: 250px;
             display: grid;
@@ -96,6 +96,15 @@
 
         p{
             line-height: 2px;
+        }
+
+        .Main{
+
+            display: flex;
+            flex-direction: row;
+            gap: 19px;
+            height: 500px;
+            width: 500px;
         }
     </style>
     <body>
@@ -118,13 +127,15 @@
         </div>
              <!-- Body -->
         <div class="body">
-            <div class="video"><img class="thamb" src="thumbnail-1.webp" alt="">
-             <div class="down"> 
+
+            <div class="Main">
+              <div class="video"><img class="thamb" src="thumbnail-1.webp" alt="">
+              <div class="down"> 
                 <div class="profile1"> <img class="DP" src="sakho6.jpg" alt=""></div>
 
 
              <div class="profile2"> <div class="grid1"> <h>Talking Tech and AI with Google CEO Sundar Pichai! </h></div>
-                                   <div class="grid1"> 
+             <div class="grid1"> 
 
                                           <p>Marques Brownlee</p>  
 
@@ -133,14 +144,90 @@
              </div>
              
             
-            </div>
+              </div>
 
 
             
-          
+            </div> 
+            
+            <!--  video2 -->
+            <div class="video"><img class="thamb" src="thumbnail-2.webp" alt="">
+              <div class="down"> 
+                <div class="profile1"> <img class="DP" src="sakho6.jpg" alt=""></div>
+
+
+             <div class="profile2"> <div class="grid1"> 
+              <h> Try Not To Laugh Challenge #9 </h></div>
+             <div class="grid1"> 
+
+                                           <p> Markiplier</p>
+
+                                         <p>   19M views · 4 years ago</p>  
+
+                                            </div>
+
+             </div>
+             
+            
+              </div>
+
+
+            
+            </div>
+
+                  <!--   video3 -->
+            <div class="video"><img class="thamb" src="thumbnail-3 (1).webp" alt="">
+              <div class="down"> 
+                <div class="profile1"> <img class="DP" src="sakho6.jpg" alt=""></div>
+
+
+             <div class="profile2"> <div class="grid1"> 
+                
+                  <h> Crazy Tik Toks Taken Moments Before DISASTER</h></div>
+             <div class="grid1"> 
+
+                                          <p>SSSniperWolf</p>  
+
+                                          <p>12M views · 1 year ago</p>  </div>
+
+             </div>
+             
+            
+              </div>
+
+
+            
+            </div>
+
+                 <!--  video4 -->
+            <div class="video"><img class="thamb" src="thumbnail-4.webp" alt="">
+              <div class="down"> 
+                <div class="profile1"> <img class="DP" src="sakho6.jpg" alt=""></div>
+
+
+             <div class="profile2"> <div class="grid1">
+                 <h>The Simplest Math Problem No One Can Solve - Collatz Conjecture </h>
+                </div>
+             <div class="grid1"> 
+
+                                          <p>Veritasium</p>  
+
+                                          <p>18M views · 4 months ago</p>  </div>
+
+             </div>
+             
+            
+              </div>
+
+
+            
+            </div>
              
            
-        </div>
+         </div>
+
+
+        
        </div>
     </body>
 </html>
